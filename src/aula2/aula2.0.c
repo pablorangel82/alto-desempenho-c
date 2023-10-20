@@ -13,7 +13,7 @@ int ligar(unsigned char lampada, unsigned char lampadas) {
 }
 
 int desligar(unsigned char lampada, unsigned char lampadas) {
-	lampadas = (1 << (8 - lampada)) & lampadas;
+	lampadas = (~(1 << (8 - lampada))) & lampadas;
 	return lampadas;
 }
 
@@ -22,8 +22,11 @@ int main() {
 
 	lampadas = ligar(1, lampadas); // 1000 0000
 	lampadas = ligar(2, lampadas); // 1100 0000
-	printf("\nLampadas: %d", lampadas); // saida: 192
-	lampadas = desligar(1, lampadas); // 1000 0000
+	lampadas = ligar(8, lampadas); // 1100 0001
+	printf("\nLampadas: %d", lampadas); // saida: 193
+
+	lampadas = desligar(2, lampadas); // 1000 0000
+	lampadas = desligar(8, lampadas); // 1000 0000
 	printf("\nLampadas: %d", lampadas); // saida: 128
 
 	return 0;
