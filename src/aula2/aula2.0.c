@@ -7,12 +7,12 @@
 
 #include <stdio.h>
 
-int ligar(unsigned char lampada, unsigned char lampadas) {
+unsigned char ligar(unsigned char lampada, unsigned char lampadas) {
 	lampadas = (1 << (8 - lampada)) | lampadas;
 	return lampadas;
 }
 
-int desligar(unsigned char lampada, unsigned char lampadas) {
+unsigned char desligar(unsigned char lampada, unsigned char lampadas) {
 	lampadas = (~(1 << (8 - lampada))) & lampadas;
 	return lampadas;
 }
@@ -25,7 +25,7 @@ int main() {
 	lampadas = ligar(8, lampadas); // 1100 0001
 	printf("\nLampadas: %d", lampadas); // saida: 193
 
-	lampadas = desligar(2, lampadas); // 1000 0000
+	lampadas = desligar(2, lampadas); // 1000 0001
 	lampadas = desligar(8, lampadas); // 1000 0000
 	printf("\nLampadas: %d", lampadas); // saida: 128
 
