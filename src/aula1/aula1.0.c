@@ -1,4 +1,4 @@
-// Aula 1: Tipos básicos e Passagem por valor
+// Aula 1: Tipos basicos e passagem por valor
 
 #include <stdio.h>
 

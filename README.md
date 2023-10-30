@@ -5,3 +5,5 @@ Repositório para guardar os códigos da disciplina eletiva: Princípios de prog
 Versão do C: 11.
 
 Ambiente de desenvolvimento: CLion.
+
+Sistema operacional: Windows 10.
