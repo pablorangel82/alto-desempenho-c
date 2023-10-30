@@ -1,8 +1,8 @@
 /* Aula 2.0: Problema das lampadas
-    Temos 8 lampadas, cada uma representada por um bit (0000 0000);
-    Todas elas são armazenadas na variavel: unsigned char lampadas;
-    A primeira lampada é representada pelo bit mais a esquerda e a ultima pelo bit mais a direita;
-    Quando ligada a lampada recebe o valor 1, quando desligada recebe o valor 0;
+	Temos 8 lampadas, cada uma representada por um bit (0000 0000);
+        Todas elas sao armazenadas na variavel: unsigned char lampadas;
+        A primeira lampada e representada pelo bit mais a esquerda e a ultima pelo bit mais a direita;
+        Quando ligada a lampada recebe o valor 1, quando desligada recebe o valor 0;
 */
 
 #include <stdio.h>

@@ -1,4 +1,4 @@
-// Aula 2.1: Apresentacao a ponteiros
+// Aula 2.1: Apresentacao a ponteiro
 
 #include <stdio.h>
 
