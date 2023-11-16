@@ -6,4 +6,6 @@ Versão do C: 11.
 
 Ambiente de desenvolvimento: CLion.
 
+Padrão de chamadas ao sistema operacional: Posix.
+
 Sistema operacional: Windows 10.
