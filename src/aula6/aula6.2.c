@@ -1,3 +1,5 @@
+// Aula 6.2: Exemplificação da estrutura de dados: fila.
+
 #include <stdio.h>
 #include <stdlib.h>
 
