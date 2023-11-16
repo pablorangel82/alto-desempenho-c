@@ -1,3 +1,5 @@
+// Aula 6.0: Exemplificação da estrutura de dados: lista.
+
 #include <stdio.h>
 #include <stdlib.h>
 

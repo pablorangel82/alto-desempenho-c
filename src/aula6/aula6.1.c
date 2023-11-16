@@ -1,3 +1,5 @@
+// Aula 6.1: Exemplificação da estrutura de dados: pilha.
+
 #include <stdio.h>
 
 #define TAM 5

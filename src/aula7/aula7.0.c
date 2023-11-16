@@ -1,3 +1,5 @@
+// Aula 7.0: Introdução a threads.
+
 #include <stdlib.h>
 #include <stdio.h>
 #include <pthread.h>
